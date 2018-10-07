@@ -41,7 +41,7 @@ if(actualtext==expectedtext)
 else
 	System.out.println("Search doesn't match");*/
 //Thread.sleep(5000);
-driver.quit();
+driver.close();
 	}
 
 
